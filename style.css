@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1440px;
+  height: 64px;
+}
+
+nav ul{
+  margin-left: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: orangered;
+}
+
+.hero-section{
+  position: relative;
+  height: 738px;
+  width: 100vw;
+}
+
+.hero-img1{
+  position: relative;
+}
+
+.hero-img2{
+ position: absolute;
+ left: 0;
+ bottom: 0;
+}
+
+.hero-text1{
+  position: absolute;
+  left: 50px;
+  bottom: 300px;
+}
+
+.hero-text2{
+  position: absolute;
+  bottom: 250px;
+  left: 50px;
+}
+
+.hero-text3{
+  position: absolute;
+  bottom: 250px;
+  left: 750px;
+}
+
+.hero-text4{
+  position: absolute;
+  bottom: 170px;
+  left: 870px;
+}
+
+.hero-text5{
+  position: absolute;
+  bottom: 540px;
+  left: 950px;
+}
+
+.hero-text6{
+  position: absolute;
+  bottom: 360px;
+  left: 1240px;
+}
+
+.content{
+  
+}
+
+.content h1{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.container{
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-img2{
+  position: relative;
+}
+
+.container2{
+  display: flex;
+}
+
+.box1{
+  height: 400px;
+  width: 300px;
+  border: 1px solid rgb(120, 120, 120);
+  padding: 20px;
+  margin: 50px 100px;
+  border-radius: 10px;
+}
+
+.container3 img{
+  position: relative;
+  left: 33%;
+}
+
+.container3 .boxes{
+  margin: 30px 200px;
+  display: flex;
+  width: 1080px;
+  height: 346px;
+  background-color: #3D479B;
+  border-radius: 10px;
+}
+
+.boxes .box2{
+  margin: 50px 40px;
+  color: white;
+}
+
+.box2 img{
+  width: 60px;
+  height: 60px;
+  left: 0;
+}
+
+.boxes .box2 h4{
+  font-family: Hellix;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.boxes .box2 p{
+  font-family: Hellix;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container4{
+  width: 1130px;
+  height: 566px;
+  margin: 50px 200px;
+  background-color: rgb(255, 247, 247);
+  border-radius: 10px;
+}
+
+.container4 p{
+  margin-top: 40px;
+  margin: 50px 30px;
+  width: 936.98px;
+  height: 50px;
+  border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+.container4 .para{
+  font-family: Hellix;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left; 
+}
+
+.container5{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container5 .reviews{
+  padding: 10px;
+  border: 1px solid rgb(90, 90, 90);
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.container6{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container6 .blogs{
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.container6 p{
+  font-family: Hellix;
+  font-size: 16px;
+}
+
+.blogs #read{
+  color:  #FF7A50;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 120px;
+  width: 1240px;
+  height: 495px;
+  background-color: #1B1B1B;
+}
+
+.footer-item1 li{
+  color: white;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+}
+
+.footer-item1 h4{
+  color: #FF7A50;
+}
+
+.footer-item1 h2{
+  color: white;
+}
